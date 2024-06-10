@@ -97,7 +97,7 @@ function Profiles() {
     );
 
     return (
-        <div className="team-members">
+        <div id="team-members">
             {listPeople}
         </div>
     );
