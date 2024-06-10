@@ -74,3 +74,35 @@ body {
     object-fit: cover;
     border-radius: 50%;
 }
+
+.team-member-socials {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.team-member-name {
+    display: grid;
+    gap: 0.125rem;
+}
+
+    .team-member-name h3 {
+        font-size: large;
+    }
+
+    .team-member-name p {
+        font-size: smaller;
+    }
+
+.team-member-chosen {
+    box-shadow: 8px 8px 32px #E1E1E1;
+}
+
+.team-member-drag {
+    opacity: 0;
+}
+
+@media (max-width: 400px) {
+    .social-links {
+        display: none;
+    }
+}

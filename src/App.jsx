@@ -53,7 +53,7 @@ function Profiles() {
                         src={e.src}
                         alt={e.alt}
                     />
-                    <div className="team-memeber-name">
+                    <div className="team-member-name">
                         <h3>{e.name}</h3>
                         <p>{e.job}</p>
                     </div>
@@ -100,14 +100,6 @@ function Profiles() {
         <div id="team-members">
             {listPeople}
         </div>
-    );
-}
-
-function Hola() {
-    return (
-        <>
-            <h1>Hola mundo</h1>
-        </>
     );
 }
 
